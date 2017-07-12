@@ -18,7 +18,7 @@ public class Application {
 
         StartUI startUI = new StartUI(environment);
 
-        startUI.setMsgHandle(new TulingRobot(environment));
+        startUI.setMsgHandle(new MoliRobot(environment));
         startUI.start();
     }
 
